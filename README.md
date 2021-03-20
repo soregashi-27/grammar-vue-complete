@@ -1,4 +1,4 @@
-# grammar-vue-complete
+# grammar-vue-validate
 
 ## Project setup
 ```
