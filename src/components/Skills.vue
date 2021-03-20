@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     addSkill() {
-      this.$validateAll().then((result) => {
+      this.$validator.validateAll().then((result) => {
         if (result) {
           this.skills.push({ skill: this.skill });
           this.skill = '';
@@ -45,6 +45,8 @@ export default {
         }
       });
     },
+    //validateの判定 $validator.validateAll()
+    //SOURCE: https://bit.ly/2P6o73k
   },
 };
 </script>
